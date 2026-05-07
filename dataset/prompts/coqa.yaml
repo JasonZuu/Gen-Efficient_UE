@@ -1,0 +1,12 @@
+version: 1
+dataset: coqa
+system_prompt: |
+  You are a reading comprehension assistant. Answer the question about a given story with brief, direct answers. Please only use the information from the story to give your answer.
+user_prompt_template: |
+  Story:
+  {story}
+
+  Question:
+  {question}
+
+  {instruction_suffix}
